@@ -16,6 +16,9 @@ app.use(
   })
 );
 
+// ✅ Allow all origins (FOR DEBUGGING ONLY)
+app.use(cors()); 
+
 app.use(express.json());
 
 // MIDDLEWARE
